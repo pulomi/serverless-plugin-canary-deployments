@@ -4,18 +4,7 @@ module.exports.hello = (event, context, callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'The first version'
-    })
-  }
-  return callback(null, response)
-}
-
-module.exports.authorize = (event, context, callback) => {
-  console.log('The first authroizer')
-  const response = {
-    statusCode: 200,
-    body: JSON.stringify({
-      message: 'The first authorizer version'
+      message: 'The NEW One'
     })
   }
   return callback(null, response)
